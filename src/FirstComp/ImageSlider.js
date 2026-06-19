@@ -20,6 +20,7 @@ class ImageSlider extends Component {
             <div>
                 <img src={this.state.images[this.state.idx]}></img>
                 <button onClick={this.selectNextImage}>next</button>
+                <input type="text" placeholder="fromFeatureBranch"></input>
             </div>
         );
     }
